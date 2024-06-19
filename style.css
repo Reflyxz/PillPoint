@@ -1,0 +1,286 @@
+body {
+    background-image: url('fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+font-family: "Kanit", sans-serif;
+color: white;
+font-size: 45px;
+}
+
+.logo{
+  position: absolute;
+  width: 300px;
+}
+
+.txtinicio{
+position: absolute;
+top: 600px;
+left: 230px;
+}
+
+.wrapper{
+  margin-left: 80px;
+}
+
+#menu{
+  margin-left: 260px;
+  font-family: "Kanit", sans-serif;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 18px;
+}
+
+#menu a{
+  transition: color 0.3s ease;
+  font-size: 19px;
+  color: white;
+  text-decoration: none;
+  font-family: "Kanit", sans-serif;
+  margin-left: 180px;
+  margin-top: 14px;
+}
+
+#perfil{
+  font-family: "Kanit", sans-serif;
+  display: flex;
+  justify-content: right;
+  margin-right: 30px;
+  margin-top: -48px;
+}
+
+ion-icon{
+  color: white;
+  font-size: 30px;
+  margin-left: 90px;
+}
+
+.link a:hover{
+  color: purple;
+  font-size: 10px;
+}
+
+
+/* Media QUERYS */ /* Media QUERYS */ /* Media QUERYS */ /* Media QUERYS */
+
+@media (min-width: 1606px) and (max-width: 1693px){
+
+  ion-icon{
+    color: white;
+    font-size: 30px;
+    margin-left: 40px;
+  }
+
+}
+
+
+
+
+@media (max-width: 1605px){
+
+  .iconcarrinho ion-icon {
+    margin-top: 70px;
+    margin-right: -133px;
+    transition: color 0.3s ease; /* Transição suave para a mudança de cor */
+  }
+  
+}
+
+
+
+
+@media (max-width: 1540px){
+
+  #menu a{
+    transition: color 0.3s ease;
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+    font-family: "Kanit", sans-serif;
+    margin-left: 120px;
+    margin-top: 14px;
+  }
+
+}
+
+
+
+
+@media (max-width: 1503px){
+
+  #menu a{
+    transition: color 0.3s ease;
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+    font-family: "Kanit", sans-serif;
+    margin-left: 100px;
+    margin-top: 14px;
+  }
+
+  .iconcarrinho ion-icon {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 1px;
+  }
+  
+}
+
+
+
+
+@media (min-width: 1210px) and (max-width: 1295px){
+
+  .txtinicio{
+    position: absolute;
+    top: 550px;
+    left: 130px;
+    }
+    
+  .iconcarrinho ion-icon {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-left: 90px;
+    margin-top: 50px;
+  }
+}
+
+
+
+
+@media (min-width: 1080px) and (max-width: 1209px){
+
+  .txtinicio{
+    position: absolute;
+    top: 550px;
+    left: 130px;
+    }
+
+  .iconcarrinho ion-icon {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-left: 90px;
+    margin-top: 50px;
+  }
+
+  #menu{
+    margin-left: 200px;
+    font-family: "Kanit", sans-serif;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 18px;
+  }
+
+  #menu a{
+    transition: color 0.3s ease;
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+    font-family: "Kanit", sans-serif;
+    margin-left: 80px;
+    margin-top: 14px;
+  }
+}
+
+
+
+
+
+
+
+
+/* @media (min-width: 200px) and (max-width: 1079px){
+  body {
+    background-image: url('fundo.jpg');
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:200vh;
+}
+
+h1{
+  font-family: "Kanit", sans-serif;
+  color: white;
+  font-size: 45px;
+  }
+  
+  .logo{
+    position: absolute;
+    width: 300px;
+  }
+  
+  .txtinicio{
+  position: absolute;
+  top: 850px;
+  left: 50px;
+  }
+  
+  .wrapper{
+    margin-left: 80px;
+  }
+  
+  
+  #menu{
+    margin-left: 260px;
+    font-family: "Kanit", sans-serif;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 18px;
+  }
+  
+  #menu a{
+    transition: color 0.3s ease;
+    font-size: 19px;
+    color: transparent;
+    text-decoration: none;
+    font-family: "Kanit", sans-serif;
+    margin-left: 180px;
+    margin-top: 14px;
+  }
+
+  
+  #perfil{
+    font-family: "Kanit", sans-serif;
+    display: flex;
+    justify-content: right;
+    margin-top: -48px;
+    margin-left: 520px;
+  }
+
+  .iconcarrinho ion-icon {
+    margin-top: 70px;
+    margin-left: 580px;
+    transition: color 0.3s ease;  
+  }
+  
+  
+  ion-icon{
+    color: white;
+    font-size: 30px;
+    margin-left: 90px;
+  }
+  
+  .link a:hover{
+    color: purple;
+    font-size: 10px;
+  }
+
+}
+
+*/
+
+
+.kanit-thin-italic {
+font-family: "Kanit", sans-serif;
+font-weight: 100;
+font-style: italic;
+}
